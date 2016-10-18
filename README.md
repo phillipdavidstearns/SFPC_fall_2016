@@ -52,7 +52,7 @@ Topics:
 * Shift Registers as "Resonant" chambers
 
 
-Exercise: building an electrical system (robot / electrical poem) with a personality
+Exercise: build a playable synth with CMOS 4000 series logic ICs
 
 ##11/9 -- SESSION 4
 
