@@ -1,25 +1,3 @@
-It's complicated...
-
-Building a world view?
-In our world, or situation (state) if there is one at all, there are things, or objects. Is that all or is this enough?
-These objects possess properties and have the capacity to form relationships with other objects.
-A property may determine whether particular relationships are possible.
-These objects may be either irreducible or composite, consiting of other objects and their relationships.
-Relationships between objects result from their properties, are emergent.
-Properties of objects may be intrinsic or emergent, resulting from the relationships between its constituent objects.
-Is it possible for properties to be objects?
-Is it possible for relationships to be objects?
-Relationships cannot exist without objects, at least two.
-Relationships are emergent and composite objects.
-Relationships my take place between any object so long as their properties permit.
-Relationships are the pathways through which interaction between objects occurs.
-A thing with no relationships, is simply lonely.
-A thing with no properties? Is it anything at all?
-
-Is it possible to redefine our situation so as to eliminate hierarchy?
-
-Materials are collcetions of objects properties.
-
 Basic Concepts:
 
 Electricity, broadly encompasses the range of physical phenomena related to the physical property of electric charge.
@@ -50,7 +28,7 @@ Conductors (i.e. metals) permit the flow of electricity
   Have the properties of resistance and inductance.
 Insulators (i.e. paper) do not conduct electricity
   Have very high resistance and can be made to conduct with enough voltage. 
-Semiconductive - permits current flow under certain conditions, acts as an insulator in others.
+Semi-conductive - permits current flow under certain conditions, acts as an insulator in others.
 
 Basic Poperties:
 
@@ -84,7 +62,7 @@ Basic Circuits:
 Circuits are often thought of as loops, but sometimes you're not always dealing with "circular" pathways.
 It can be helpful to think of them as paths as well.
 These paths determine the movement of charge through various components.
-The begining and end of a path is determined by its context.
+The beginning and end of a path is determined by its context.
 In simplest terms, the path of a circuit connects some load to a power supply.
 
 The simplest circuit is a conductive path from the positive terminal of your power supply to the negative.
