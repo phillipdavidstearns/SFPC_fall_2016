@@ -1,4 +1,4 @@
-#Binary Logic Basics
+#Binary Logic
 
 Numbers are represented by a sequence of binary bits.
 Bits contain two states, on or off, true or false, high or low, zero or one.
@@ -7,7 +7,7 @@ Conversely a zero or ground voltage represents the logical 0 or false, also know
 
 Numbers in digital circuits are always represented by two distinct voltage states. Most common is the 0v (low) = 0, and +5V (high) = 1.
 
-#Basic Gates
+#Logic Gates
 
 ##NOT
 
@@ -24,7 +24,7 @@ Honestly, the NOT gate is not really a gate at all, just a bit flipper.
 
 In CMOS, some chips that have gates with this behavior are the 4069, 40106, 4584
 
-##AND
+##AND and NAND
 
 It's time to introduce two concepts here: asynchronous/synchronous circuits and combinational.
 
@@ -38,6 +38,8 @@ AND circuits: AND (conjunction), denoted x∧y (sometimes x AND y or Kxy), satis
 
 This can be summarized in a [truth table](http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/#truth). Where all the combinations of inputs for a particular logic gate are listed along with the resultant output.
 
+[Here's the Symbol](https://en.wikipedia.org/wiki/AND_gate#/media/File:AND_ANSI.svg)
+
 For AND, we have something like this:
 
  A | B | Y 
@@ -46,3 +48,75 @@ For AND, we have something like this:
  1 | 0 | 0 
  0 | 1 | 0 
  1 | 1 | 1 
+
+ Where A and B are the inputs and Y is the output
+
+NOT AND or NAND is simply the compliment (inverse) of AND
+
+###[NAND](https://en.wikipedia.org/wiki/NAND_gate#/media/File:NAND_ANSI_Labelled.svg)
+ A | B | Y 
+ ---- | ---- | ----
+ 0 | 0 | 1 
+ 1 | 0 | 1 
+ 0 | 1 | 1 
+ 1 | 1 | 0 
+
+
+##OR
+
+OR (disjunction), denoted x∨y (sometimes x OR y or Axy), satisfies x∨y = 0 if x = y = 0 and x∨y = 1 otherwise.
+
+[Here's the symbol](https://en.wikipedia.org/wiki/OR_gate#/media/File:OR_ANSI_Labelled.svg)
+
+and the Truth Table:
+
+ A | B | Y 
+ ---- | ---- | ----
+ 0 | 0 | 0 
+ 1 | 0 | 1 
+ 0 | 1 | 1 
+ 1 | 1 | 1 
+
+Where A and B are the inputs and Y is the output
+
+NOT OR or NOR is simply the compliment (inverse) of OR
+
+###[NOR](https://en.wikipedia.org/wiki/NOR_gate#/media/File:NOR_ANSI_Labelled.svg)
+
+ A | B | Y 
+ ---- | ---- | ----
+ 0 | 0 | 1 
+ 1 | 0 | 0
+ 0 | 1 | 0 
+ 1 | 1 | 0 
+
+
+##XOR
+
+[XOR](https://en.wikipedia.org/wiki/XOR_gate) is like OR but it excludes the AND condition.
+You can make an XOR circuit from NAND gates! [Check it out](https://en.wikipedia.org/wiki/XOR_gate#/media/File:XOR_from_NAND.svg).
+
+[Here's the symbol](https://en.wikipedia.org/wiki/XOR_gate#/media/File:XOR_ANSI.svg)
+
+and the Truth Table:
+
+ A | B | Y 
+ ---- | ---- | ----
+ 0 | 0 | 0 
+ 1 | 0 | 1 
+ 0 | 1 | 1 
+ 1 | 1 | 0 
+
+Where A and B are the inputs and Y is the output
+
+NOT XOR or XNOR is simply the compliment (inverse) of XOR
+
+###[NOR](https://en.wikipedia.org/wiki/XNOR_gate#/media/File:Xnor-gate-en.svg)
+
+ A | B | Y 
+ ---- | ---- | ----
+ 0 | 0 | 1 
+ 1 | 0 | 0
+ 0 | 1 | 0  
+ 1 | 1 | 1 
+
