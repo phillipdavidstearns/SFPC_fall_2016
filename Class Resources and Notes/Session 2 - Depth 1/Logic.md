@@ -41,7 +41,7 @@ This can be summarized in a [truth table](http://www.ee.surrey.ac.uk/Projects/CA
 For AND, we have something like this:
 
  A | B | Y 
- - | - | - 
+ ---- | ---- | ----
  0 | 0 | 0 
  1 | 0 | 0 
  0 | 1 | 0 
