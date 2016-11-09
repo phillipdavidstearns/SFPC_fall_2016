@@ -53,17 +53,21 @@ Topics:
 * CMOS 4000 series digital logic
 * Making music with the building blocks of computational systems
 * Hex Inverters as Oscillators
-* Switches and Multiplexers
-* Binary Counters
-* Shift Registers as "Resonant" chambers
 
-Exercise: build a playable synth with CMOS 4000 series logic ICs
+Exercise: build a simple speaker driver and oscillator with 40106 Hex Schmitt Trigger
+
+Homework: combine two oscillators using dual input logic gates (4081)
 
 ##11/9 -- SESSION 4
 
-###Depth 3: Microprocessors  (Poetics of custom hybrid digital/analog systems)
+###Depth 3: Basic Computation and Music
 
 Topics:
 
-* Configuring CMOS circuits to play nice with Arduino
-* Writing code to control your CMOS synth from scratch
+* Counters as frequency dividers
+* Multiplexers (and counters) as sequencers
+* Shift Registers as resonant objects
+
+Exercise: create a simple 8 note sequencer using a 40106, 4040, and 4051.
+
+Homework: create a custom synthesizer using any combination of the chips covered in class.
