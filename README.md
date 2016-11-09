@@ -71,3 +71,5 @@ Topics:
 Exercise: create a simple 8 note sequencer using a 40106, 4040, and 4051.
 
 Homework: create a custom synthesizer using any combination of the chips covered in class.
+Continue your journey here: https://docs.google.com/document/d/1V9qerry_PsXTZqt_UDx7C-wcuMe_6_gyy6M_MyAgQoA/edit
+Lunetta Synths expand on this idea and bring in some hybrid analog-digital concepts as well.
