@@ -1,4 +1,4 @@
-##SFPC Nested Abstractions - Fall 2016
+## SFPC Nested Abstractions - Fall 2016
 
 Instructor: [Phillip David Stearns](http://phillipstearns.com)
 Class at [School for Poetic Computation](http://sfpc.io), Fall 2016.
@@ -10,9 +10,9 @@ Students will be presented material on basic electrical theory, electronic circu
 This class merges the material and techniqes of [P++CB](https://phillipstearns.wordpress.com/pcb/) and [PureDatrocessarduinoMOS](https://vimeo.com/97899618)
 __________________________________________________________________________________________
 
-##10/19 -- SESSION 1
+## 10/19 -- SESSION 1
 
-###Depth 0: The Atoms of Electronic Computation (Analog Concepts)
+### #Depth 0: The Atoms of Electronic Computation (Analog Concepts)
 
 Preparation: 
 
@@ -25,9 +25,9 @@ Topics:
 
 Exercise: wire up an analyze basic NPN transitor based LED driver circuit
   
-##10/25 -- SESSION 2
+## 10/25 -- SESSION 2
 
-###Depth 1: The Molecules of Electronic Computation (Digital Concepts)
+### Depth 1: The Molecules of Electronic Computation (Digital Concepts)
 
 Topics:
 
@@ -44,9 +44,9 @@ Exercise: construct basic P++CB modules: LED driver, Speaker Driver, Oscillator,
 
 Homework: construct a binary counter from D type flip flops
 
-##11/2 -- SESSION 3
+## 11/2 -- SESSION 3
 
-###Depth 2: Integrated Circuits (Modular computational tasks and musical applications)
+### Depth 2: Integrated Circuits (Modular computational tasks and musical applications)
 
 Topics:
 
@@ -58,9 +58,9 @@ Exercise: build a simple speaker driver and oscillator with 40106 Hex Schmitt Tr
 
 Homework: combine two oscillators using dual input logic gates (4081)
 
-##11/9 -- SESSION 4
+## 11/9 -- SESSION 4
 
-###Depth 3: Basic Computation and Music
+### Depth 3: Basic Computation and Music
 
 Topics:
 
